@@ -15,7 +15,7 @@ a{
     color: rgb(36, 35, 35);
 }
 
-.material-symbols-outlined{
+.store-name .material-symbols-outlined{
     font-size: 40px !important;
     color: purple;
 }
@@ -30,4 +30,8 @@ a{
 
 .store-name h1 .second-color{
     color: purple;
+}
+
+.navbar nav{
+    font-size: 20px
 }
