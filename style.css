@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    height: 50px;
+    background-color: aliceblue;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+}
+
+.material-symbols-outlined{
+    font-size: 40px !important;
+    color: purple;
+}
+
+.store-name{
+    display: flex;
+}
+
+.store-name h1{
+    margin: 5px;
+}
+
+.store-name h1 .second-color{
+    color: purple;
+}
