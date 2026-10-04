@@ -1,18 +1,27 @@
 body{
     margin: 0px;
+    margin-left: 120px;
     padding: 0px;
+    background-color: aliceblue;
+}
+
+.content{
+    width: 1350px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .navbar{
     display: flex;
     height: 50px;
-    background-color: aliceblue;
-    justify-content: space-between;
+    gap: 150px;
 }
 
-a{
+nav a{
     text-decoration: none;
-    color: rgb(36, 35, 35);
+    color: rgb(75, 73, 73);
 }
 
 .store-name .material-symbols-outlined{
@@ -33,5 +42,175 @@ a{
 }
 
 .navbar nav{
-    font-size: 20px
+    font-size: 20px;
+    word-spacing: 20px;
+    margin-top: 12px;
+}
+
+.input{
+    display: flex;
+    align-content: center;
+    border: 2px solid black;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    width: 210px;
+}
+
+.input input{
+    border-style: none;
+    margin: 0px;
+}
+
+.input input:focus{
+    outline: none;
+}
+
+.actions{
+    margin-top: 12px;
+    display: flex;
+    gap: 50px;
+}
+
+.actions .material-symbols-outlined{
+    font-size: 30px;
+}
+
+main{
+    margin: 10px;
+}
+
+.poster{
+    background-color: rgb(213, 207, 240);
+    border-radius: 10px;
+    background-image: url("./headphone.png");
+    background-repeat: no-repeat;
+    background-size: 220px;
+    background-position: 1000px center;
+}
+
+.poster div{
+    width: 400px;
+    padding:10px 0px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.poster div h3{
+    font-size: 22px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    color: purple;
+}
+
+.poster div h2{
+    margin-top: 0px;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: rgb(40, 40, 112);
+}
+
+.poster div p{
+    font-size: 18px;
+    color: rgb(63, 62, 62);
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    height: 150px;
+    background-color: gainsboro;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+
+.features div{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.products div img{
+    width: 200px;
+    background-color: gray;
+}
+
+.products h2{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.products .items{
+    display: flex;
+    padding: 0px 50px 0px 50px;
+    justify-content: space-between;
+}
+
+.products .items div{
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.products .items div p,
+.products .items div button{
+    margin: 10px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    width: 180px;
+
+}
+
+footer{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(29, 27, 27);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.footer-content{
+    display: flex;
+    gap: 200px;
+    padding: 20px;
+}
+
+.footer-content div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content div a{
+    text-decoration: none;
+    color: white;
+}
+
+.reference{
+    flex-direction: row;
+}
+
+.reference h1{
+    margin: 5px;
+}
+
+.reference .material-symbols-outlined{
+    font-size: 40px;
+    color: purple;
+}
+
+.footer-content div .icons{
+    flex-direction: row;
+    gap: 20px;
+    font-size: 30px;
+}
+
+footer p{
+    text-align: center;
 }

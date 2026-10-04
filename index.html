@@ -5,30 +5,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=shopping_bag" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
 </head>
 <body>
-    <header class="navbar">
-        <div  class="store-name">
-            <span class="material-symbols-outlined">
-                shopping_bag
-            </span>
-            <h1>
-                <span class="first-color">Flex</span><span class="second-color">Shop</span>
-            </h1>
-        </div>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./products.html">Products</a>
-            <a href="./about.html">About</a>
-            <a href="./contact.html">Contact</a>
-        </nav>
-        <div class="input">
-            <span class="material-symbols-outlined">
-                search
-            </span>
-        </div>
-    </header>
+    <div class="content">
+        <header class="navbar">
+            <div  class="store-name">
+                <span class="material-symbols-outlined">
+                    shopping_bag
+                </span>
+                <h1>
+                    <span class="first-color">Flex</span><span class="second-color">Shop</span>
+                </h1>
+            </div>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./products.html">Products</a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+            <div class="input">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <input type="text" placeholder="Search" id="search">
+            </div>
+            <div class="actions">
+                <span class="material-symbols-outlined">
+                    favorite
+                </span>
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+                <span class="material-symbols-outlined">
+                    account_circle
+                </span>
+            </div>
+        </header>
+        <hr>
+        <main>
+            <section class="poster">
+                <div class="text">
+                    <h3>new collection</h3>
+                    <h2>better products for a brighter future</h2>
+                    <p>Discover amazing products that make your life easier, simpler and more beautiful.</p>
+                </div>
+            </section>
+            <section class="features">
+                <div>
+                    <span class="material-symbols-outlined">
+                        local_shipping
+                    </span>
+                    <p>Free Shipping <br><small>On all orders over $50</small></p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        verified_user
+                    </span>
+                    <p>Secured Payments <br><small>100% secure payments</small></p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        headset_mic
+                    </span>
+                    <p>24/7 Support <br><small>We're here to help</small></p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        undo
+                    </span>
+                    <p>Easy Return <br><small>30 days return policy</small></p>
+                </div>
+            </section>
+            <section class="products">
+                <h2>Featured Products</h2>
+                <div class="items">
+                    <div>
+                        <img src="./watch.webp" alt="watch">
+                        <p>Smart Watch</p>
+                        <p>$99.00</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="./earbuds.png" alt="earbuds">
+                        <p>Wireless Earbuds</p>
+                        <p>$59.00</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="./bag.png" alt="bag">
+                        <p>School Bag</p>
+                        <p>$49.00</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div>
+                        <img src="./bottle.png" alt="bottle">
+                        <p>Water Bottle</p>
+                        <p>$25.00</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div>
+                    <div class="reference">
+                        <span class="material-symbols-outlined">
+                            shopping_bag
+                        </span>
+                        <h1>
+                            <span class="first-color">Flex</span><span class="second-color">Shop</span>
+                        </h1>
+                    </div>
+                    <div>
+                        <span>Your one-step shop for modern lifestyle products.</span>
+                    </div>
+                </div>
+                <div>
+                    <p>Quick links</p>
+                    <a href="./index.html">Home</a>
+                    <a href="./products.html">Products</a>
+                    <a href="./about.html">About</a>
+                    <a href="./contact.html">Contact</a>         
+                </div>
+                <div>
+                    <p>Help</p>
+                    <span>FAQ</span>
+                    <span>Shipping</span>
+                    <span>Returns</span>
+                    <span>Support</span>
+                </div>
+                <div>
+                    <p>Follow Us</p>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        <i class="fa-brands fa-square-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p>&copy; 2026 FlexShop. All rights reserved</p>
+        </footer>
+    </div>
 </body>
 </html>
