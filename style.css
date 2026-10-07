@@ -16,7 +16,7 @@ body{
 .navbar{
     display: flex;
     height: 50px;
-    gap: 150px;
+    justify-content: space-between;
     padding: 0px 10px 0px 10px;
 }
 
